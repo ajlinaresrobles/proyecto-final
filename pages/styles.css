@@ -8,7 +8,7 @@
     height: 45px;
 }
 body{
-    background-color: #f2e9e1;
+    background: radial-gradient(circle farthest-corner at center, rgba(242, 233, 225, 1) 35%, rgba(242, 246, 249, 1) 65%, rgba(242, 255, 255, 1) 100%);
 }
 section{
     padding-top: 50px;
@@ -32,10 +32,10 @@ section{
 .titulo-index h1{
     grid-column: 2/3;
 }
-/* barra de navegación */
+/* barra de navegación  */
 nav {
     text-align: center;
-    background-color: #cbe86b;
+    background: linear-gradient(to left, rgba(203,232,107,1),rgba(203,232,107,0.95));
     display: flex;
     justify-content: space-between;
     height: 50px;
@@ -116,7 +116,7 @@ section h3{
 /* pié de página */
 footer{
     height: 180px;
-    background-color:  #1c140d;
+    background:linear-gradient(to left, rgba(28,20,13,0.9)10%,rgba(28,20,13,1)90%,rgba(28,20,13,0.9)100%);
     color:white;
     display:flex;
     justify-content: space-around;
@@ -134,6 +134,11 @@ footer div ul{
 }
 footer div ul p{
     margin-bottom: 20px;
+}
+/* hover del footer  */
+footer div ul li a:hover{
+    color: #cbe86b;
+    transition: 0.20s;
 }
 /* grilla index*/
 .grid-recetas-index{

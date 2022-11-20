@@ -4,8 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <script src="https://kit.fontawesome.com/df359e4437.js" crossorigin="anonymous"></script>
+                        <!-- Animate On Scroll -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+                        <!-- Animate CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+                        <!-- Aqui abajo va el código del bootstrap -->
+
+                        <!-- Css Local -->
+        <link rel="stylesheet" href="./styles.css">
+                        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/df359e4437.js" crossorigin="anonymous"></script>
     <title>proyecto final contacto</title>
 </head>
 <body>
@@ -24,7 +32,7 @@
    </header>
                                                 <!-- Cuerpo de la Página -->
    <section>
-    <h2>Ponte en Contacto con Nosotros</h2>
+    <h2 class="animate__animated animate__fadeIn">Ponte en Contacto con Nosotros</h2>
     <form>
         Nombre: <input type="text" name="nombre"><br>
         Apellido: <input type="text" name="apellido"><br>
@@ -38,13 +46,13 @@
    </section>
                                                 <!-- Pié de Página -->
    <footer>
-    <div>
+    <div data-aos="zoom-in">
         <ul><p>Corporativo</p>
             <li><a href="">Quienes Somos</a></li>
             <li><a href="">Nuestras Marcas</a></li> 
         </ul>
     </div>
-    <div>
+    <div data-aos="zoom-in">
         <ul><p>Servicio al Cliente</p>
             <li><a href="./contacto.html">Contactanos</a></li>
             <li><a href="">Preguntas Frecuentes</a></li>
@@ -52,7 +60,7 @@
             <li><a href="">Términos y Condiciones</a></li>
         </ul>
     </div>
-    <div>
+    <div data-aos="zoom-in">
         <ul><p>Redes Sociales</p>
         <li><a href=""><i class="fa-brands fa-twitter"></i>   Twitter</a></li>
         <li><a href=""><i class="fa-brands fa-facebook"></i>   Facebook</a></li>
@@ -60,5 +68,9 @@
         </ul>
     </div>
    </footer>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init();
+  </script>
 </body>
 </html>

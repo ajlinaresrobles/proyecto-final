@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <!-- Animate On Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+                            <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+                            <!-- Aqui abajo va el código del bootstrap -->
+    
+                            <!-- Css Local -->
     <link rel="stylesheet" href="./styles.css">
+                            <!-- font awesome -->               
     <script src="https://kit.fontawesome.com/df359e4437.js" crossorigin="anonymous"></script>
     <title>proyecto final videos</title>
 </head>
@@ -24,41 +32,41 @@
     </header> 
                                                     <!-- Cuerpo de la Página -->
     <section>
-        <h2>Observa cómo se preparan las mejores recetas</h2>
+        <h2 class="animate__animated animate__fadeIn">Observa cómo se preparan las mejores recetas</h2>
     <div class="videos-recetas">
-        <div>
+        <div data-aos="fade-right">
             <h5>Video 1</h5>
             <iframe width="512" height="288" src="https://www.youtube.com/embed/J_-2AYubfy4" title="14 recetas rápidas con tan solo 5 ingredientes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div>
+        <div data-aos="fade-left">
             <h5>Video 2</h5>
             <iframe width="512" height="288" src="https://www.youtube.com/embed/zvE1hJpD5-E" title="4 SNACKS o Aperitivos con POCOS INGREDIENTES | Recetas Fáciles y Rápidas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div>
+        <div data-aos="fade-right">
             <h5>Video 3</h5>
             <iframe width="512" height="288" src="https://www.youtube.com/embed/aBcr5Wa1yHo" title="DEDOS O PALITOS DE QUESO | recetas de cocina faciles rapidas y economicas | comidas ricas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div>
+        <div data-aos="fade-left">
             <h5>Video 4</h5>
             <iframe width="512" height="288" src="https://www.youtube.com/embed/VP3NsXt4J9Y" title="21 recetas rápidas para una deliciosa tarde después del trabajo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>></iframe>
         </div>
-        <div>
+        <div data-aos="fade-right">
             <h5>Video 5</h5>
             <iframe width="512" height="288" src="https://www.youtube.com/embed/yNMoWwNe2DE" title="3 ingredientes y la cena está lista, fácil, barato y rápido | @Recetas faciles" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
         </div>
-        <div>
+        <div data-aos="fade-left">
             <h5>Video 6</h5>
             <iframe width="512" height="288" src="https://www.youtube.com/embed/crbdF9zeA-Q" title="Huevos al plato. Cena rápida y económica ASMR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div>
+        <div data-aos="fade-right">
             <h5>Video 7</h5>
             <iframe width="512" height="288" src="https://www.youtube.com/embed/Us6gzsVv_MA" title="Pizza en sartén sin horno 🍕 ¡FÁCIL Y RÁPIDA! 😱" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div>
+        <div data-aos="fade-left">
             <h5>Video 8</h5>
             <iframe width="512" height="288" src="https://www.youtube.com/embed/P-2JOVpPZQw" title="Esta es la receta más fácil, rápida y barata que te encantará." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div>
+        <div data-aos="fade-right">
             <h5>Video 9</h5>
             <iframe width="512" height="288" src="https://www.youtube.com/embed/5BenrDkN6gY" title="LOS 8 MEJORES POSTRES EN 5 MINUTOS | 8 recetas FÁCILES Y RÁPIDAS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
@@ -66,13 +74,13 @@
     </section>
                                                     <!-- Pié de Página -->
     <footer>
-        <div>
+        <div data-aos="zoom-in">
             <ul><p>Corporativo</p>
                 <li><a href="">Quienes Somos</a></li>
                 <li><a href="">Nuestras Marcas</a></li> 
             </ul>
         </div>
-        <div>
+        <div data-aos="zoom-in">
             <ul><p>Servicio al Cliente</p>
                 <li><a href="./contacto.html">Contactanos</a></li>
                 <li><a href="">Preguntas Frecuentes</a></li>
@@ -80,7 +88,7 @@
                 <li><a href="">Términos y Condiciones</a></li>
             </ul>
         </div>
-        <div>
+        <div data-aos="zoom-in">
             <ul><p>Redes Sociales</p>
             <li><a href=""><i class="fa-brands fa-twitter"></i>   Twitter</a></li>
             <li><a href=""><i class="fa-brands fa-facebook"></i>   Facebook</a></li>
@@ -88,5 +96,9 @@
             </ul>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <!-- Animate On Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+                            <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+                            <!-- Aqui abajo va el código del bootstrap -->
+    
+                            <!-- Css Local -->
     <link rel="stylesheet" href="./styles.css">
+                            <!-- font awesome -->
     <script src="https://kit.fontawesome.com/df359e4437.js" crossorigin="anonymous"></script>
     <title>proyecto final libros</title>
 </head>
@@ -24,29 +32,29 @@
     </header> 
                                         <!-- Cuerpo de la Página -->
        <section>
-            <h2>Consigue los mejores libros de recetas</h2>
+            <h2 class="animate__animated animate__fadeIn">Consigue los mejores libros de recetas</h2>
         <div class="grid-recetas-libros">
-            <div>
+            <div class="animate__animated animate__zoomIn">
             <h5>La buena cocina</h5>
             <a target="_blank" href="https://www.linio.cl/p/buena-cocina-la-900-recetas-que-siempre-salen-bien-lg8h1c"><img src="../img/libro-buena-cocina.jpg" alt="libro buena cocina"></a>
             </div>
-            <div>
+            <div class="animate__animated animate__zoomIn">
             <h5>El estudio de China</h5>
             <a target="_blank" href="https://www.linio.cl/p/libro-cocina-fa-cil-y-ra-pida-estudio-china-lgmma0"><img src="../img/libro-china.jpg" alt="libro china"></a>
             </div>
-            <div>
+            <div class="animate__animated animate__zoomIn">
             <h5>El gran libro de la cocina Chilena</h5>
             <a target="_blank" href="https://www.linio.cl/p/gran-libro-de-la-cocina-chilena-579-tr5965"><img src="../img/libro-cocina-chilena.jpg" alt="libro cocina chilena"></a>
             </div>
-            <div>
+            <div class="animate__animated animate__zoomIn">
             <h5>Cocina vegana en 15 minutos</h5>
             <a target="_blank" href="https://www.linio.cl/p/libro-libro-cocina-vegana-en-15-minutos-605--qd9jhk"><img src="../img/libro-cocina-vegana.jpg" alt="libro cocina vegana"></a>
             </div>
-            <div>
+            <div class="animate__animated animate__zoomIn">
             <h5>Recetas para deportistas</h5>
             <a href="https://www.falabella.com/falabella-cl/product/113562509/Recetas-Para-Deportistas/113562511?exp=linio"><img src="../img/recetas-para-deportistas.jpg" alt="recetas para deportistas"></a>
             </div>
-            <div>
+            <div class="animate__animated animate__zoomIn">
             <h5>Instant Pot fácil y delicioso</h5>
             <a target="_blank" href="https://www.linio.cl/p/instant-pot-libro-recetas-fa-cil-mzlxqm"><img src="../img/libro-instant-pot.jpg" alt="libro instant pot"></a>
             </div>
@@ -54,13 +62,13 @@
        </section>
                                         <!-- Pié de Página -->
        <footer>
-        <div>
+        <div data-aos="zoom-in">
             <ul><p>Corporativo</p>
                 <li><a href="">Quienes Somos</a></li>
                 <li><a href="">Nuestras Marcas</a></li> 
             </ul>
         </div>
-        <div>
+        <div data-aos="zoom-in">
             <ul><p>Servicio al Cliente</p>
                 <li><a href="./contacto.html">Contactanos</a></li>
                 <li><a href="">Preguntas Frecuentes</a></li>
@@ -68,7 +76,7 @@
                 <li><a href="">Términos y Condiciones</a></li>
             </ul>
         </div>
-        <div>
+        <div data-aos="zoom-in">
             <ul><p>Redes Sociales</p>
             <li><a href=""><i class="fa-brands fa-twitter"></i>   Twitter</a></li>
             <li><a href=""><i class="fa-brands fa-facebook"></i>   Facebook</a></li>
@@ -76,5 +84,9 @@
             </ul>
         </div>
        </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
