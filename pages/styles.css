@@ -17,7 +17,6 @@ section{
 /* titulo del index */
 .titulo-index{
     color:white;
-    font-size: 50px;
     height: 400px;
     font-family: 'Source Sans Pro', sans-serif;
     width: 100%;
@@ -31,6 +30,8 @@ section{
 }
 .titulo-index h1{
     grid-column: 2/3;
+    font-size: 70px;
+    font-weight: 600;
 }
 /* barra de navegación  */
 nav {
@@ -49,9 +50,13 @@ nav ul{
     display: flex;
     list-style: none;
     margin-right: 50px;
+    margin-bottom: 0px;
 }
 nav ul li{
     margin:0 40px;
+}
+nav ul li a{
+    font-size: 18px;
 }
 /* hover de la barra de navegacion  */
 nav ul li a:hover{
@@ -66,6 +71,7 @@ section h2{
     padding-top: 30px;
     color: #1c140d;
     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
 }
 section form{
     padding-top: 20px;
@@ -83,6 +89,7 @@ section h5{
     font-size: 24px;
     color: #1c140d;
     margin-bottom: 25px;
+    font-weight: 600;
 }
 section h4{
     text-align: center;
@@ -91,6 +98,7 @@ section h4{
     padding-bottom: 25px;
     color: #1c140d;
     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
 }
 /* imagenes del index  */
 section a img{
@@ -112,6 +120,7 @@ section h3{
     margin-top: 20px;
     font-size: 32px;
     color: #1c140d;
+    font-weight: 600;
 }
 /* pié de página */
 footer{
@@ -198,7 +207,7 @@ nav{
     padding-top: 10px;
 }
 section{
-   padding-top: 240px;
+   padding-top: 280px;
 }
 section h2{
     font-size: 30px;
