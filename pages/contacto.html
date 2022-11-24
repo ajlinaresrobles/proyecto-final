@@ -37,16 +37,46 @@
                                                 <!-- Cuerpo de la Página -->
    <section>
     <h2 class="animate__animated animate__fadeIn">Ponte en Contacto con Nosotros</h2>
-    <form>
-        Nombre: <input type="text" name="nombre"><br>
-        Apellido: <input type="text" name="apellido"><br>
-        Email: <input type="email" name="email"><br>
-        <div>Hombre</div>
-        <input type="radio" name="sexo" value="Hombre">
-        <div>Mujer</div>
-        <input type="radio" name="sexo" value="Mujer"><br>
-        <input type="button" value="ingresar">
-    </form>
+    <form class="row g-3">
+        <div class="col-md-5">
+            <label for="inputEmail4" class="form-label">Nombres</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-5">
+            <label for="inputPassword4" class="form-label">Apellidos</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+        <div class="col-md-5">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-5">
+          <label for="inputPassword4" class="form-label">Número de Teléfono</label>
+          <input type="password" class="form-control" id="inputPassword4" placeholder="9 XXXX XXXX">
+        </div>
+        <div class="col-10">
+          <label for="inputAddress" class="form-label">Dirección</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Calle Numeral Dpto.">
+        </div>
+        <div class="col-md-5">
+          <label for="inputCity" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-2">
+            <label for="inputZip" class="form-label">Código Postal</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+        <div class="col-md-3">
+          <label for="inputState" class="form-label">Cómo prefiere ser contactado?</label>
+          <select id="inputState" class="form-select">
+            <option selected>Email</option>
+            <option>Teléfono</option>
+          </select>
+        </div> 
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary mi-boton-form">Contáctanos</button>
+        </div>
+      </form>
    </section>
                                                 <!-- Pié de Página -->
    <footer>

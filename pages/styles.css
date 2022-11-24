@@ -74,18 +74,12 @@ section h2{
     font-weight: 600;
 }
 section form{
-    padding-top: 20px;
-    margin: 0 0 20px;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    padding:50px 40px 50px 40px;
+    text-align: center;
+    justify-content: center;
 }
 section h5{
-    margin-left: 30px;
     font-family: 'Source Sans Pro', sans-serif;
-    margin-top: 50px;
     font-size: 24px;
     color: #1c140d;
     margin-bottom: 25px;
@@ -102,10 +96,9 @@ section h4{
 }
 /* imagenes del index  */
 section a img{
-    margin-left: 20px;
         height: 70%;
         width: 70%; 
-        border-radius: 10px;  
+        /* border-radius: 10px;  */
 }
 
 nav ul li a{
@@ -174,6 +167,7 @@ footer div ul li a:hover{
     padding: 0 80px 40px 80px;
     justify-items: center;
     text-align: center;
+    row-gap: 40px;
 }
 /* grilla blog */
 .articulos-blog{
@@ -263,4 +257,33 @@ section h1{
     flex-direction: column;
     row-gap: 20px;
 }
+}
+    /* pisando el bootstrap */
+/* pisando el botón del formulario */
+.mi-boton-form{
+    background: #1c140d;
+    border-color: black;
+}
+.mi-boton-form:hover{
+    background: #55433F;
+    border-color: black;
+}
+.mi-boton-form:active{
+    background: #1c140d !important;
+    border-color: black !important;
+}
+.mi-boton-form:focus-visible{
+    background: #1c140d;
+    border-color: black; 
+}
+.mi-card-body{
+    background-color: #1c140d;
+}
+.mi-card-title{
+    color:#f2e9e1;
+    text-align: center;
+    
+}
+.mi-grid{
+    padding: 100px;
 }
