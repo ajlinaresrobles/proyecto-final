@@ -276,6 +276,7 @@ section h1{
     background: #1c140d;
     border-color: black; 
 }
+/* Pisando tarjetas */
 .mi-card-body{
     background-color: #1c140d;
 }
@@ -286,4 +287,9 @@ section h1{
 }
 .mi-grid{
     padding: 100px;
+}
+/* Pisando grid de videos */
+.mi-row-videos{
+    row-gap: 50px;
+    padding-top: 50px;
 }
