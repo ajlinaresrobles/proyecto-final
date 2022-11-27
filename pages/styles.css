@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-.logo{
+.logo img{
     width: 120px;
     height: 45px;
 }
@@ -34,32 +34,33 @@ section{
     font-weight: 600;
 }
 /* barra de navegación  */
-nav {
+.mi-nav{
     text-align: center;
     background: linear-gradient(to left, rgba(203,232,107,1),rgba(203,232,107,0.95));
     display: flex;
-    justify-content: space-between;
-    height: 50px;
     width: 100%;
     position: fixed;
     z-index: 2;
     align-items: center;
     font-family: 'Source Sans Pro', sans-serif;
 }
-nav ul{
+.mi-lista{
     display: flex;
-    list-style: none;
-    margin-right: 50px;
-    margin-bottom: 0px;
+    justify-content: flex-end;
 }
 nav ul li{
-    margin:0 40px;
+    margin: 0 30px;   
 }
-nav ul li a{
-    font-size: 18px;
+
+.mi-link{
+    text-decoration: none;
+    font-weight: bold;
+    color: #1c140d;
+    font-size: 20px;
 }
 /* hover de la barra de navegacion  */
-nav ul li a:hover{
+
+.mi-link:hover{
     text-decoration: underline;
     color: #f2e9e1;
     transition: 0.20s;
@@ -101,11 +102,6 @@ section a img{
         /* border-radius: 10px;  */
 }
 
-nav ul li a{
-    text-decoration: none;
-    font-weight: bold;
-    color: #1c140d;
-}
 /* letra del blog */
 section h3{
     margin-left: 30px;
@@ -197,11 +193,11 @@ nav{
     flex-direction: column;
     row-gap: 20px;
     align-items: center;
-    position: absolute;
+    position: absolute !important;
     padding-top: 10px;
 }
 section{
-   padding-top: 280px;
+   padding-top: 60px;
 }
 section h2{
     font-size: 30px;
@@ -276,6 +272,19 @@ section h1{
     background: #1c140d;
     border-color: black; 
 }
+/* pisando el botón de la navbar */
+.mi-boton-buscar:active{
+    background: #1c140d !important;
+    border-color: black !important;
+}
+.mi-boton-buscar:hover{
+    background: #55433F;
+    border-color: black;
+}
+.mi-boton-buscar{
+    color: #1c140d;
+    border-color: black;
+}
 /* Pisando tarjetas */
 .mi-card-body{
     background-color: #1c140d;
@@ -292,4 +301,13 @@ section h1{
 .mi-row-videos{
     row-gap: 50px;
     padding-top: 50px;
+}
+/* pisando los input del form */
+form div input:focus{
+box-shadow:0 0 0 0.25rem rgba(28,20,13,0.25) !important;
+border-color: #1c140d !important;
+}
+/* pisando logo */
+.mi-logo{
+    padding: 0;
 }

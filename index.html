@@ -23,16 +23,40 @@
 <body>
     <header>
                                                  <!-- Barra de Navegación -->
-        <nav>
-            <a href="./index.html"><img class="logo" src="./img/Logo.jpg" alt="logo recetas falabella"></a>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./pages/libros.html">Libros</a></li>
-                <li><a href="./pages/videos.html">Videos</a></li>
-                <li><a href="./pages/blog.html">Blog</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav> 
+<nav class="navbar navbar-expand-lg bg-light mi-nav">
+  <div class="container-fluid">
+    <a class="navbar-brand logo mi-logo" href="./index.html"><img src="./img/Logo.jpg" alt="Logo Recetas Falabella"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse mi-lista" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+        <li class="nav-item">
+          <a class="nav-link mi-link" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mi-link" href="./pages/libros.html">Libros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mi-link" href="./pages/videos.html">Videos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mi-link" href="./pages/blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mi-link" href="./pages/contacto.html">Contacto</a>
+        </li>
+        
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+        <button class="btn btn-outline-success mi-boton-buscar" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+       
     </header>
                                                 <!-- Cuerpo de la Página -->
     <section>
@@ -134,49 +158,12 @@
         </div>
       </div>
     </div>
-      
-    
+        
   </div>
-            <!-- <div data-aos="zoom-in">
-          <h5>Recetas con Pollo</h5>
-          <a href=""><img class="recetas-pollo" src="./img/recetas-pollo.jpg" alt="recetas con pollo"></a>
-            </div> -->
-          <!-- <div data-aos="zoom-in">
-          <h5>Recetas con Carne</h5>
-          <a href=""><img class="recetas-carne" src="./img/recetas-carne.jpg" alt="recetas con carne"></a>
-            </div>
-          <div data-aos="zoom-in">
-          <h5>Recetas con Sopas</h5>
-          <a href=""><img class="recetas-sopa" src="./img/recetas-sopa.jpg" alt="recetas con sopas"></a>
-            </div>
-          <div data-aos="zoom-in">
-          <h5>Recetas con Pescados</h5>
-          <a href=""><img class="recetas-pescado" src="./img/recetas-pescado.jpg" alt="recetas con pescados"></a>
-            </div>
-          <div data-aos="zoom-in">
-          <h5>Recetas de Ensaladas</h5>
-          <a href=""><img class="recetas-ensalada" src="./img/recetas-ensalada.jpg" alt="recetas de ensaladas"></a>
-            </div>
-          <div data-aos="zoom-in">
-          <h5>Recetas con Verduras</h5>
-          <a href=""><img class="receta-verdura" src="./img/recetas-verdura.jpg" alt="recetas con verduras"></a>
-            </div>
-          <div data-aos="zoom-in">
-          <h5>Recetas con Pastas</h5>
-          <a href=""><img class="recetas-pasta"src="./img/recetas-pasta.jpg" alt="recetas con pastas"></a>
-            </div>
-          <div data-aos="zoom-in">
-          <h5>Recetas con Arroz y Cereales</h5>
-          <a href=""><img class="recetas-arroz" src="./img/recetas-arroz.jpg" alt="recetas con arroz"></a>
-            </div>
-          <div data-aos="zoom-in">
-          <h5>Recetas de Postres</h5>
-          <a href=""><img class="recetas-postre"src="./img/recetas-postre.jpg" alt="recetas de postres"></a>
-            </div> -->
-        <!-- </div> -->
-            <div>
-               <h4 data-aos="zoom-in">Cocina en menos de 15 minutos</h4>
-            </div>
+          
+       <div>
+          <h4 data-aos="zoom-in">Cocina en menos de 15 minutos</h4>
+        </div>
     </section>
                                                 <!-- Pié de Página -->
     <footer>

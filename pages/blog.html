@@ -23,16 +23,40 @@
 <body>
    <header>
                                                  <!-- Barra de Navegación -->
-        <nav>
-            <a href="../index.html"><img class="logo" src="../img/Logo.jpg" alt="logo recetas falabella"></a>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./libros.html">Libros</a></li>
-                <li><a href="./videos.html">Videos</a></li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+<nav class="navbar navbar-expand-lg bg-light mi-nav">
+  <div class="container-fluid">
+    <a class="navbar-brand logo mi-logo" href="../index.html"><img src="../img/Logo.jpg" alt="Logo Recetas Falabella"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse mi-lista" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+        <li class="nav-item">
+          <a class="nav-link mi-link" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mi-link" href="./libros.html">Libros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mi-link" href="./videos.html">Videos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mi-link" href="./blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mi-link" href="./contacto.html">Contacto</a>
+        </li>
+        
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+        <button class="btn btn-outline-success mi-boton-buscar" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>   
+       
    </header> 
                                                 <!-- Cuerpo de la Página -->
    <section>
@@ -101,7 +125,7 @@
         <div class="col">
             <div data-aos="zoom-in">
               <div class="card">
-                  <a href="https://blog.grupocajamar.com/cuales-son-los-alimentos-mas-consumidos-en-el-mundo/"><img src="../img/blog-superalimentos.jpg" class="card-img-top" alt="alimentos mas consumidos"></a>
+                  <a href="https://blog.grupocajamar.com/cuales-son-los-alimentos-mas-consumidos-en-el-mundo/"><img src="../img/blog-top-favoritos.jpg" class="card-img-top" alt="alimentos mas consumidos"></a>
                   <div class="card-body mi-card-body">
                     <h5 class="card-title mi-card-title">Cuáles son los alimentos más consumidos en el mundo</h5>
                   </div>
@@ -111,7 +135,7 @@
         <div class="col">
             <div data-aos="zoom-in">
               <div class="card">
-                  <a href="https://www.efadeporte.com/blog/nutricion-deportiva/alimentos-que-no-debes-combinar"><img src="../img/blog-no-combinar.jpg" class="card-img-top" alt="alimentos no combinar"></a>
+                  <a href="https://www.efadeporte.com/blog/nutricion-deportiva/alimentos-que-no-debes-combinar"><img src="../img/blog-no-mezclar.jpg" class="card-img-top" alt="alimentos no combinar"></a>
                   <div class="card-body mi-card-body">
                     <h5 class="card-title mi-card-title">Conoce los alimentos que no debes combinar jamás</h5>
                   </div>
@@ -120,38 +144,7 @@
         </div>
 
     </div>
-    <!-- <div class="articulos-blog">
-        <div class="blog-perder-peso">
-            <a target="_blank" href="https://supletech.cl/blog/alimentos-para-perder-peso/"><img src="../img/blog-alimentos-perder-peso.jpg" alt="alimentos perder peso"></a>
-            <a target="_blank" href="https://supletech.cl/blog/alimentos-para-perder-peso/"><p>Alimentos naturales que ayudan a bajar de peso</p></a>
-        </div>
-        <div class="blog-omega-3">
-            <a target="_blank" href="https://www.ericfavre.com/lifestyle/es/bienvenida/nutricion-deportiva/todo-sobre-la-alimentacion-sana/los-mejores-alimentos-con-omega-3/"><img src="../img/blog-alimentos-omega-3.jpg" alt="alimentos omega 3"></a>
-            <a target="_blank" href="https://www.ericfavre.com/lifestyle/es/bienvenida/nutricion-deportiva/todo-sobre-la-alimentacion-sana/los-mejores-alimentos-con-omega-3/"><p>Los mejores alimentos con omega 3</p></a>
-        </div>
-        <div class="blog-acido-alcanino">
-            <a target="_blank" href="https://www.ericfavre.com/lifestyle/es/bienvenida/nutricion-deportiva/todo-sobre-la-alimentacion-sana/alimentos-alcalinizantes-y-acidificantes/"><img src="../img/blog-acido-alcalino.jpg" alt="alimentos alcalinizantes acidificantes"></a>
-            <a target="_blank" href="https://www.ericfavre.com/lifestyle/es/bienvenida/nutricion-deportiva/todo-sobre-la-alimentacion-sana/alimentos-alcalinizantes-y-acidificantes/"><p>Alimentos alcalinizantes y acidificantes</p></a>
-        </div>
-        <div class="blog-superalimentos">
-            <a target="_blank" href="https://www.ericfavre.com/lifestyle/es/bienvenida/nutricion-deportiva/todo-sobre-la-alimentacion-sana/los-superalimentos/"><img src="../img/blog-superalimentos.jpg" alt="superalimentos"></a>
-            <a target="_blank" href="https://www.ericfavre.com/lifestyle/es/bienvenida/nutricion-deportiva/todo-sobre-la-alimentacion-sana/los-superalimentos/"><p>Los Superalimentos</p></a>
-        </div>
-        <div class="blog-azucar-alimentos">
-            <a target="_blank" href="https://www.ericfavre.com/lifestyle/es/bienvenida/nutricion-deportiva/todo-sobre-la-alimentacion-sana/el-azucar-en-nuestros-alimentos/"><img src="../img/blog-azucar-alimentos.jpg" alt="azucar en alimentos"></a>
-            <a target="_blank" href="https://www.ericfavre.com/lifestyle/es/bienvenida/nutricion-deportiva/todo-sobre-la-alimentacion-sana/el-azucar-en-nuestros-alimentos/"><p>El azúcar en nuestros alimentos</p></a>
-        </div>
-        <div class="blog-mejorar-aprendizaje">
-            <a target="_blank" href="https://www.goconqr.com/es/examtime/blog/10-alimentos-para-mejorar-tu-aprendizaje/"><img src="../img/blog-alimentos-aprendizaje.jpg" alt="alimentos mejorar aprendizaje"></a>
-            <a target="_blank" href="https://www.goconqr.com/es/examtime/blog/10-alimentos-para-mejorar-tu-aprendizaje/"><p>10 alimentos para mejorar tu aprendizaje</p></a>
-        </div>
-        <div class="blog-top-consumidos">
-            <a target="_blank" href="https://blog.grupocajamar.com/cuales-son-los-alimentos-mas-consumidos-en-el-mundo/"><img src="../img/blog-top-consumidos.jpg" alt="alimentos top consumidos"></a>
-            <a target="_blank" href="https://blog.grupocajamar.com/cuales-son-los-alimentos-mas-consumidos-en-el-mundo/"><p>Cuáles son los alimentos más consumidos en el mundo</p></a>
-        </div>
-        <div class="blog-no-combinar">
-            <a target="_blank" href="https://www.efadeporte.com/blog/nutricion-deportiva/alimentos-que-no-debes-combinar"><img src="../img/blog-no-combinar.jpg" alt="alimentos no combinar"></a>
-            <a target="_blank" href="https://www.efadeporte.com/blog/nutricion-deportiva/alimentos-que-no-debes-combinar"><p>Conoce los alimentos que no debes combinar jamás</p></a>
+   
         </div>
     </div> -->
    </section>
