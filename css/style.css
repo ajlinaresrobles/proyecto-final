@@ -1,4 +1,27 @@
 @charset "UTF-8";
+footer {
+  height: 180px;
+  background: linear-gradient(to left, rgba(28, 20, 13, 0.9) 10%, rgb(28, 20, 13) 90%, rgba(28, 20, 13, 0.9) 100%);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Source Sans Pro", sans-serif;
+}
+footer div {
+  margin-top: 30px;
+}
+footer div ul {
+  list-style: none;
+}
+footer div ul li a {
+  color: white;
+  text-decoration: none;
+}
+footer div ul li a:hover {
+  color: #cbe86b;
+  transition: 0.2s;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -317,29 +340,6 @@ form div input:focus {
 /* pisando logo */
 .mi-logo {
   padding: 0;
-}
-
-footer {
-  height: 180px;
-  background: linear-gradient(to left, rgba(28, 20, 13, 0.9) 10%, rgb(28, 20, 13) 90%, rgba(28, 20, 13, 0.9) 100%);
-  color: white;
-  display: flex;
-  justify-content: space-around;
-  font-family: "Source Sans Pro", sans-serif;
-}
-footer div {
-  margin-top: 30px;
-}
-footer div ul {
-  list-style: none;
-}
-footer div ul li a {
-  color: white;
-  text-decoration: none;
-}
-footer div ul li a:hover {
-  color: #cbe86b;
-  transition: 0.2s;
 }
 
 /*# sourceMappingURL=style.css.map */
