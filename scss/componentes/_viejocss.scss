@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    width: 120px;
+    height: 45px;
+}
+body{
+    background: radial-gradient(circle farthest-corner at center, rgba(242, 233, 225, 1) 35%, rgba(242, 246, 249, 1) 65%, rgba(242, 255, 255, 1) 100%);
+}
+section{
+    padding-top: 50px;
+    font-family:  'Source Sans Pro', sans-serif;
+}
+/* titulo del index */
+.titulo-index{
+    color:white;
+    height: 400px;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    background-image: linear-gradient(rgba(5,7,12,0), rgba(5,7,12,1)), url(../img/pollo-fondo-oscuro.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    justify-items: center;
+    background-attachment: fixed;
+}
+.titulo-index h1{
+    grid-column: 2/3;
+    font-size: 70px;
+    font-weight: 600;
+}
+/* barra de navegación  */
+.mi-nav{
+    text-align: center;
+    background: linear-gradient(to left, rgba(203,232,107,1),rgba(203,232,107,0.95));
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.mi-lista{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    margin: 0 30px;   
+}
+
+.mi-link{
+    text-decoration: none;
+    font-weight: bold;
+    color: $mi-negro;
+    font-size: 20px;
+}
+/* hover de la barra de navegacion  */
+
+.mi-link:hover{
+    text-decoration: underline;
+    color: $mi-pastel;
+    transition: 0.20s;
+}
+/* secciones */
+section h2{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+    color: $mi-negro;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+section form{
+    padding:50px 40px 50px 40px;
+    text-align: center;
+    justify-content: center;
+}
+section h5{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    color: $mi-negro;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+section h4{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    color: $mi-negro;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+/* imagenes del index  */
+section a img{
+        height: 70%;
+        width: 70%; 
+        /* border-radius: 10px;  */
+}
+
+/* letra del blog */
+section h3{
+    margin-left: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 20px;
+    font-size: 32px;
+    color: $mi-negro;
+    font-weight: 600;
+}
+
+footer div ul p{
+    margin-bottom: 20px;
+}
+
+/* grilla index*/
+.grid-recetas-index{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    padding: 50px 100px 50px 100px;
+}
+/* grilla libros */
+.grid-recetas-libros {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    padding: 50px 100px 50px 100px;
+}
+/* grilla videos  */
+.videos-recetas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 80px 40px 80px;
+    justify-items: center;
+    text-align: center;
+    row-gap: 40px;
+}
+/* grilla blog */
+.articulos-blog{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    padding: 50px 10px 50px 10px;
+    text-align: center;
+}
+.articulos-blog a{
+    text-decoration: none;
+    color: $mi-negro;   
+}
+/* media query */
+@media screen and (max-width: 576px) {
+    nav ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+nav{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    position: absolute !important;
+    padding-top: 10px;
+}
+section{
+   padding-top: 60px;
+}
+section h2{
+    font-size: 30px;
+    text-align: center;
+}
+.grid-recetas-libros{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.grid-recetas-index{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;  
+}
+.videos-recetas{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    height:auto;
+    align-items: center;
+    padding-bottom: 20px;
+}
+section a img{
+    margin-left: 0px;
+    height: 100%;
+    width: 100%;
+}
+section h5{
+    font-size: 20px;
+}
+section h1{
+   font-size: 30px;
+   text-align: center; 
+}
+.videos-recetas div iframe{
+    height: 100%;
+    width: 100%;
+}
+.titulo-index{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75)), url(../img/pollo-fondo-oscuro.jpg);
+}
+.articulos-blog{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+}
+    /* pisando el bootstrap */
+/* pisando el botón del formulario */
+.mi-boton-form{
+    background: $mi-negro;
+    border-color: black;
+}
+.mi-boton-form:hover{
+    background: $variante-marron;
+    border-color: $mi-negro;
+}
+.mi-boton-form:active{
+    background: $mi-negro !important;
+    border-color: black !important;
+}
+.mi-boton-form:focus-visible{
+    background: $mi-negro;
+    border-color: black; 
+}
+/* pisando el botón de la navbar */
+.mi-boton-buscar:active{
+    background: $mi-negro !important;
+    border-color: black !important;
+}
+.mi-boton-buscar:hover{
+    background: $mi-negro;
+    border-color: black;
+}
+.mi-boton-buscar{
+    color: $mi-negro;
+    border-color: black;
+}
+/* Pisando tarjetas */
+.mi-card-body{
+    background-color: $mi-negro;
+}
+.mi-card-title{
+    color:$mi-pastel;
+    text-align: center;
+    
+}
+.mi-grid{
+    padding: 100px;
+}
+/* Pisando grid de videos */
+.mi-row-videos{
+    row-gap: 50px;
+    padding-top: 50px;
+}
+/* pisando los input del form */
+form div input:focus{
+box-shadow:0 0 0 0.25rem rgba(28,20,13,0.25) !important;
+border-color: $mi-negro !important;
+}
+/* pisando logo */
+.mi-logo{
+    padding: 0;
+}
