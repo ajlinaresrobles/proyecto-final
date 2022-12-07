@@ -1,0 +1,7 @@
+@mixin dimensiones($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+.logo img{
+    @include dimensiones(120px,45px);
+}

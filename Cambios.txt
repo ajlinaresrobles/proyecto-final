@@ -1,0 +1,10 @@
+Cambios realizados en la última entrega:
+
+- Se agregó documento _maps.scss y se llamó mediante un map-get en el hover del navbar.
+
+- Se agregó extend de centrado a los grid del index, libros y videos.
+
+- Se agregó mixin al logo.
+
+- 
+

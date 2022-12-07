@@ -1,4 +1,14 @@
 @charset "UTF-8";
+.grid-recetas-index, .grid-recetas-libros, .videos-recetas {
+  text-align: center;
+  justify-items: center;
+}
+
+.logo img {
+  width: 120px;
+  height: 45px;
+}
+
 footer {
   height: 180px;
   background: linear-gradient(to left, rgba(28, 20, 13, 0.9) 10%, rgb(28, 20, 13) 90%, rgba(28, 20, 13, 0.9) 100%);
@@ -25,11 +35,6 @@ footer div ul li a:hover {
 * {
   margin: 0;
   padding: 0;
-}
-
-.logo img {
-  width: 120px;
-  height: 45px;
 }
 
 body {
@@ -157,8 +162,6 @@ footer div ul p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  text-align: center;
-  justify-items: center;
   padding: 50px 100px 50px 100px;
 }
 
@@ -167,8 +170,6 @@ footer div ul p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  text-align: center;
-  justify-items: center;
   padding: 50px 100px 50px 100px;
 }
 
@@ -177,8 +178,6 @@ footer div ul p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 0 80px 40px 80px;
-  justify-items: center;
-  text-align: center;
   row-gap: 40px;
 }
 

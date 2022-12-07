@@ -1,0 +1,13 @@
+%centrado{
+   text-align: center;
+   justify-items: center;
+}
+.videos-recetas{
+    @extend %centrado;
+}
+.grid-recetas-libros{
+    @extend %centrado;
+}
+.grid-recetas-index{
+    @extend %centrado;
+}
