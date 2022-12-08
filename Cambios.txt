@@ -2,9 +2,27 @@ Cambios realizados en la última entrega:
 
 - Se agregó documento _maps.scss y se llamó mediante un map-get en el hover del navbar.
 
-- Se agregó extend de centrado a los grid del index, libros y videos.
+- Se agregó _extend.scss de centrado a los grid del index, libros y videos.
 
-- Se agregó mixin al logo.
+- Se agregó _mixin.css al logo.
 
-- 
+- SEO en los title de los html.
+
+- Se agregó favicon.
+
+- Se agregó meta description.
+
+- Se agregó keywords.
+
+
+Se mantiene igual:
+
+- Los alt de las imágenes ya estaban completados como para cumplir con el SEO.
+
+- Los title de los iframe vinieron por defecto pero cumplen con el objetivo del SEO.
+
+
+	Saludos.
+
+	Alejandro Linares.
 
